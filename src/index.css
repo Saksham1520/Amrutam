@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "nexa light";
+  src: local("Nexa-Light"),
+    url("./assets/Fonts/Nexa-Light.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "dinpro";
+  src: local("D-DIN-PRO-700-Bold"),
+    url("./assets/Fonts/D-DIN-PRO-700-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "nunitoblack";
+  src: local("Nunito-Black"),
+    url("./assets/Fonts/Nunito-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "nunitolight";
+  src: local("Nunito-Light"),
+    url("./assets/Fonts/Nunito-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "dinpro-400";
+  src: url("./assets/Fonts/D-DIN-PRO-400-Regular.otf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "gothamrounded";
+  src: url("./assets/Fonts/Gotham-Rounded-Bold.otf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "intermedium";
+  src: url("./assets/Fonts/Inter_18pt-Medium.ttf") format("truetype");
+  font-weight: 400;
+}
